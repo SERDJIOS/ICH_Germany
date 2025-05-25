@@ -1,0 +1,22 @@
+{
+  "name": "3-1miniproject",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "knip": "^5.55.1",
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2"
+  }
+}

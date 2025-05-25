@@ -1,0 +1,15 @@
+{
+  "name": "hw_19",
+  "version": "1.0.0",
+  "description": "Homework 19 - TypeScript functions",
+  "main": "hw19.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node hw19.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.0.0"
+  }
+} 

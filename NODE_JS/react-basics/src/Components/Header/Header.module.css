@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333331;
+    padding: 10px 100px;
+}
+
+.header h2 {
+    font-size: 28px;
+    color: white;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 40px;
+    color: white;
+font-size: 18px;
+font-weight: 600;
+}
+
+.header nav ul li {
+    cursor: pointer;
+}

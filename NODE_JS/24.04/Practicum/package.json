@@ -1,0 +1,23 @@
+{
+  "name": "practicum",
+  "version": "1.0.0",
+  "description": "Инициализация express + mongo сервера 1. npm init -y 2. npm i express mongodb mongoose dotenv 3. npm i nodemon -D 4. type: module 5. Создаем .env файл, в него  MONGO_URI - берем строку подключения из compass mongodb+srv://username:password@cluster0.naxvs.mongodb.net/24-april PORT=3000 и остальное по необходимости 6. Создаем папку внутри src - db, в ней index.js файл.Это файл подключения к серверу import 'dotenv/config' import { MongoClient } from 'mongodb'",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

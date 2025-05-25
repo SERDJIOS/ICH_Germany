@@ -1,0 +1,15 @@
+{
+  "name": "hw-17",
+  "version": "1.0.0",
+  "description": "TypeScript Homework 17",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node hw17.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^18.0.0"
+  }
+} 

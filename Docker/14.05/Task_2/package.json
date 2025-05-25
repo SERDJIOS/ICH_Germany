@@ -1,0 +1,11 @@
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "description": "Этот проект использует Terraform для автоматизированного развертывания EC2-инстансов в AWS. Вся конфигурация организована через декларативный код Terraform и использует переменные для гибкости.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

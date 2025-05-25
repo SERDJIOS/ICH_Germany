@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# Terraform
+.terraform/
+*.tfstate*
+ 
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# AWS credentials
+Docker/rootkey.csv
+
+# Сборки и логи
+dist/
+build/
+npm-debug.log*
+yarn-error.log*

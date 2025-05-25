@@ -1,0 +1,19 @@
+{
+  "name": "async_tasks",
+  "version": "1.0.0",
+  "description": "Async JavaScript tasks",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "start": "ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

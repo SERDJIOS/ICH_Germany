@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css" />
+    <script
+      src="https://kit.fontawesome.com/9499f32742.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    
+  <header class="header">
+    <div class="header-logo-container">
+      <a href="new.html">
+        <img src="./images/heder/logo.svg" id="back_up" alt="#" />
+      </a>
+    </div>
+    <div class="header-input-container">
+      <div class="header-input-control-container">
+        <div class="input-control-icon _1">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="input-control-field _1">
+          <input type="text" id="inputEventName" placeholder="Search events" />
+        </div>
+      </div>
+      <div class="header-input-control-container">
+        <div class="input-control-field _2">
+          <input type="text" id="inputLocation" placeholder="Mountain View, CA" />
+        </div>
+        <div class="input-control-icon _2">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <div class="header-buttons-container">
+      <button class="btn-link">
+        <i class="fa-solid fa-globe"></i>
+        <span>English</span>
+      </button>
+      <button class="btn-link">
+        <span>Log in</span>
+      </button>
+      <button class="btn-primary">
+        <span>Sign up</span>
+      </button>
+    </div>
+  </header>
+
+    <!-- main -->
+    <main>
+      <div class="section1Filter">
+        <div class="nav">
+          <div class="navLeft">
+            <h1>Events near New York, NY</h1>
+            <a href="">Events</a>
+            <ul class="filterList">
+              <li class="li" data-filter="type">
+                <span class="selectedFilterLabel">Any type</span>
+                <img src="./images/filter/arrow.svg" alt="" class="imgF" />
+                <ul class="animeList">
+                  <li>Online</li>
+                  <li>Offline</li>
+                </ul>
+              </li>
+              <li class="li" data-filter="type">
+                <span class="selectedFilterLabel">Any distance</span>
+                <img src="./images/filter/arrow.svg" class="imgF" />
+                <ul class="animeList">
+                  <li>5 km</li>
+                  <li>10 km</li>
+                  <li>15 km</li>
+                  <li>25 km</li>
+                  <li>50 km</li>
+                  <li>75 km</li>
+                  <li>100 km</li>
+                </ul>
+              </li>
+              <li class="li" data-filter="type">
+                <span class="selectedFilterLabel">Any category</span>
+                <img src="./images/filter/arrow.svg" class="imgF" />
+
+                <ul class="animeList">
+                  <li>Social Activities</li>
+                  <li>Hobbies and Passions</li>
+                  <li>Health and Wellbeing</li>
+                  <li>Business</li>
+                  <li>Technology</li>
+                </ul>
+              </li>
+              <button id="resetFilters">Reset Filters</button>
+            </ul>
+            <img
+              id="img"
+              src="./images/border-filtered-page/Screenshot 2024-03-13 at 10.28 1.png"
+              alt=""
+            />
+          </div>
+          <div class="navRight">
+            <p>Find events near</p>
+            <h3>New York, NY</h3>
+          </div>
+        </div>
+        <div class="düsseldorf">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80529.64625440188!2d6.744839960784045!3d51.22774109892544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c97d5c89c5fd%3A0xc80b8f06c7b9e77e!2sD%C3%BCsseldorf!5e0!3m2!1suk!2sde!4v1726011742148!5m2!1suk!2sde"
+            width="350"
+            height="285"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="section2Filter" id="section2Filter"></div>
+    </main>
+<!-- footer -->
+<footer>
+  <div class="footer-top">
+    <p>Create your own Meetup group.</p>
+    <button class="get-started-btn">Get Started</button>
+  </div>
+  <div class="footer-links">
+    <div>
+      <h3>Your Account</h3>
+      <ul>
+        <li><a href="#">Sign up</a></li>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Become an Affiliate</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Discover</h3>
+      <ul>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Topics</a></li>
+        <li><a href="#">Cities</a></li>
+        <li><a href="#">Online Events</a></li>
+        <li><a href="#">Local Guides</a></li>
+        <li><a href="#">Make Friends</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Meetup</h3>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Meetup Pro</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Podcast</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-social">
+    <div class="social-icons">
+      <p>Follow us</p>
+      <a href="#"><img src="./icons/footer/facebook.svg" alt="Facebook" /></a>
+      <a href="#"><img src="./icons/footer/tweet.svg" alt="Twitter" /></a>
+      <a href="#"><img src="./icons/footer/youtube.svg" alt="YouTube" /></a>
+      <a href="#"><img src="./icons/footer/insta.svg" alt="Instagram" /></a>
+      <a href="#"><img src="./icons/footer/tik-tok.svg" alt="TikTok" /></a>
+    </div>
+    <div class="app-links">
+      <a href="#"><img src="./icons/footer/google_play.svg" alt="Google Play" /></a>
+      <a href="#"><img src="./icons/footer/appstore.svg" alt="App Store" /></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Meetup</p>
+    <ul class="footer-policies">
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Do Not Sell or Share My Personal Data</a></li>
+      <li><a href="#">Cookie Policy</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </div>
+</footer>
+
+    <script src="./script1.js"></script>
+  </body>
+</html>

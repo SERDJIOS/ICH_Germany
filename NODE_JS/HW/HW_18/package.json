@@ -1,0 +1,15 @@
+{
+  "name": "typescript-homework",
+  "version": "1.0.0",
+  "description": "TypeScript homework assignments",
+  "main": "dist/typescript_tasks.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/typescript_tasks.js",
+    "dev": "ts-node typescript_tasks.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+} 

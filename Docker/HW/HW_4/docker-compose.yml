@@ -1,0 +1,30 @@
+
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    networks:
+      - mynetwork
+
+  redis:
+    image: redis:latest
+    networks:
+      - mynetwork
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: qweqwe123
+      MYSQL_DATABASE: docker_db
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - mynetwork
+
+volumes:
+  mysql_data:
+
+networks:
+  mynetwork:

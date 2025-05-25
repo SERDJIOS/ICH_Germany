@@ -1,0 +1,21 @@
+{
+  "name": "hw_22",
+  "version": "1.0.0",
+  "description": "TypeScript exercises",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node main.ts",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+} 
