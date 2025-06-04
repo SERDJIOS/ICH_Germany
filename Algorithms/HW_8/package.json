@@ -1,0 +1,12 @@
+{
+  "name": "stack-project",
+  "version": "1.0.0",
+  "description": "Простой пример реализации стека на основе массива в Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["stack", "стек", "nodejs", "array"],
+  "author": "Serjio",
+  "license": "MIT"
+}
